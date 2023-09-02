@@ -1,0 +1,19 @@
+table 
+{
+    background-color: lightblue;
+    
+    width: 50%;
+    
+}
+/* make borders of every cell in have rounded corners */
+td, th 
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* make the first row of the table bold */
+
+
+
