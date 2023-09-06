@@ -1,0 +1,97 @@
+img {
+    margin-left: 45%;
+}
+
+form {
+    margin-left: 36%;
+    margin-right: 27%;
+    font-size: 25px;
+}
+
+label {
+    /* make it bold */
+    font-weight: bold;
+}
+
+input {
+    /* make it block */
+    display: block;
+    width: 97%;
+    /* make it 20px height */
+    height: 40px;
+    margin: 5px;
+    /* make it 1px border */
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(68, 162, 68);
+    height: 49px;
+    /* increase the size of text written in the button */
+    font-size: 25px;
+    font-display: bolder;
+    font-style: normal;
+    /* change color to white */
+    color: white;
+}
+
+
+
+input[type="checkbox"] {
+    margin-top: 30px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.remembertext {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+:placeholder-shown {
+    font-size: 20px;
+}
+.after-hr{
+    background-color: lightgray;
+    
+}
+
+hr{
+    padding: 0;
+    margin: 0;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.after-hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cancelbtn, .forgot-password {
+    display: inline-block;
+  }
+  
