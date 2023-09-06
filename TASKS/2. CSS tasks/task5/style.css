@@ -1,0 +1,87 @@
+h1 {
+    font-size: 40px;
+    padding-left: 35%;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    
+    
+    
+    text-decoration: none;
+
+    
+
+}
+li
+{
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+
+
+    /* add black thick rectangle to right side of each list item */
+    border-right : 30px solid black;
+
+
+    /* have space between each cell */
+    margin: 10px 0;
+
+}
+
+.firstparagraph {
+    font-size: 20px;
+    padding-left: 35%;
+    margin-right: 35%;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+hr {
+    margin-left: 35%;
+    margin-right: 20%;
+}
+
+.end {
+    font-size: 20px;
+    padding-left: 35%;
+    margin-right: 35%;
+}
+
+a {
+    text-decoration: none;
+ 
+}
+a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+ 
+}
