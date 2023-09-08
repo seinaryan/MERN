@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+        .Gender {
+            width: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="myForm" class="form" >
+            <!-- ...form fields... -->
+            <label>Name</label>
+            <input type="text" placeholder="Enter Name" />
+            <br />
+            <br />
+
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username" />
+            <br />
+            <br />
+
+            <label>Password</label>
+            <input type="password" />
+            <br />
+            <br />
+
+            <label>Phone Number</label>
+            <input type="number" />
+            <br />
+            <br />
+
+            <label>Gender</label>
+            <!-- checkbox for male female and others -->
+            <input type="checkbox" class="Gender">
+            <label>male</label>
+            <input type="checkbox" class="Gender">
+            <label>
+                female
+            </label>
+            <input type="checkbox" class="Gender">
+            <label>
+                others
+            </label>
+            <br />
+            <br />
+
+
+            <label>Language</label>
+            <!-- drop down menu -->
+            <select>
+                <option value="select">--Select--</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Marathi">Marathi</option>
+                <option value="Gujarati">Gujarati</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label>Zip Code</label>
+            <!-- input as a number but without arrows -->
+            <input type="number" />
+            <br />
+            <br />
+
+
+            <label>About</label>
+            <!-- text area -->
+            <textarea rows="4" cols="50" placeholder="Write about yourself....">
+            </textarea>
+            <br />
+            <br />
+
+            <button type="submit" id = "registorbutton">Registor</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
